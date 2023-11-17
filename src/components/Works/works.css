@@ -1,0 +1,98 @@
+#works {
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.worksTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+}
+
+.worksDesc {
+    font-size: 0.9rem;
+    font-weight: 300;
+    max-width: 45rem;
+}
+
+.worksImgs {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 65rem;
+    flex-wrap: wrap;
+}
+
+.wrkImg {
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+    transition: 0.5s;
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-container h3 {
+    display: none;
+}
+
+.img-container:hover .img-content {
+    display: block;
+    position: absolute;
+    top: 40%;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+}
+
+.img-content {
+    color: #fff;
+    background-color: rgb(40,40,40);
+    font-size: 0.9rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: auto;
+    transition: 0.5s;
+}
+
+.img-content:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.wrkImg:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.worksBtn {
+    margin: 3rem 0;
+    padding: 0.5rem 2.5rem;
+    border: none;
+    background: #fff;
+    border-radius: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.worksBtn:hover {
+    background: skyblue;
+}
+
+@media screen and (max-width:585px) {
+    .wrkImg {
+        height: 48vw;
+    }
+}
