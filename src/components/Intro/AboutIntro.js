@@ -7,7 +7,7 @@ import { Link } from 'react-scroll';
 
 const AboutIntro = () => {
   const getResume = () => {
-    const rUrl = 'https://flowcv.com/resume/qfml8k9d1l';
+    const rUrl = 'https://drive.google.com/file/d/1j3vm8wLqXRF3IW_dqFILHVx1UxRUpoK4/view';
     window.open(rUrl, '_blank');
   }
   return (
