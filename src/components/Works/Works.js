@@ -24,7 +24,7 @@ const Works = () => {
           </div>
           <div className='img-container'>
           <img src={portfolio2} alt="portfolio_image" className="wrkImg" onClick={() => {
-              const pUrl2 = 'https://lambent-halva-8e4e4b.netlify.app/';
+              const pUrl2 = 'https://react-ecommerce-app-frontend-naru.vercel.app/';
               window.open(pUrl2, "_blank");
             }}/>
             <h3 className="img-content">Click on image to view sample</h3>
