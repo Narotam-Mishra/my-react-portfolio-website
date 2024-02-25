@@ -7,7 +7,7 @@ import { Link } from 'react-scroll';
 
 const AboutIntro = () => {
   const getResume = () => {
-    const rUrl = 'https://drive.google.com/file/d/1j3vm8wLqXRF3IW_dqFILHVx1UxRUpoK4/view';
+    const rUrl = 'https://drive.google.com/file/d/1FUyo_Yzv2ag7Hrsh6GDKH9Vt3WdBJsCQ/view';
     window.open(rUrl, '_blank');
   }
   return (
