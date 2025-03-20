@@ -31,7 +31,7 @@ const Works = () => {
           </div>
           <div className='img-container'>
           <img src={portfolio3} alt="portfolio_image" className="wrkImg" onClick={() => {
-              const pUrl3 = 'https://drive.google.com/file/d/1hAg1_2I3hGcrCXcQvQyUjzdK6zfKhbFb/view';
+              const pUrl3 = 'https://job-api-temp.onrender.com/api-docs/';
               window.open(pUrl3, "_blank");
             }}/>
             <h3 className="img-content">Click on image to view sample</h3>
@@ -52,7 +52,7 @@ const Works = () => {
           </div>
           <div className='img-container'>
           <img src={portfolio6} alt="portfolio_image" className="wrkImg" onClick={() => {
-              const pUrl6 = 'https://precious-kleicha-cbca84.netlify.app/';
+              const pUrl6 = 'https://react-admin-dashboard-ts-orcin.vercel.app/';
               window.open(pUrl6, "_blank");
             }}/>
             <h3 className="img-content">Click on image to view sample</h3>

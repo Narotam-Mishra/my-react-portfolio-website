@@ -9,13 +9,13 @@ const Skills = () => {
   return (
     <section id='skills'>
         <span className='skillTitle'>What I do</span>
-        <span className="skillDesc">I am an aspiring Software Developer with having 3+ Yrs of experience in Full Stack Web Development (MERN stack) and SDE. I have a strong understanding of frontend and backend development. I am proficient in React, Node and MongoDB, as well as full stack development softwares such as VS Code Editor, Postman & Git</span>
+        <span className="skillDesc">I am an aspiring Software Developer with having 4+ Yrs of experience in Full Stack Web Development (MERN stack) and SDE. I have a strong understanding of frontend and backend development. I am proficient in React, Node and MongoDB, as well as full stack development softwares such as VS Code Editor, Postman & Git</span>
         <div className="skillBars">
             <div className="skillBar">
                 <img src={UIDesign} className='skillBarImg' alt="UIDesign" />
                 <div className="skillBarText">
                     <h2>Frontend Development</h2>
-                    <p>I used to create frontend of web applications using HTML,CSS, JS & React.</p>
+                    <p>I used to create frontend of web applications using React, Nextjs, Tailwind CSS & MUI</p>
                 </div>
             </div>
             <div className="skillBar">
